@@ -1,0 +1,84 @@
+:root {
+  --red: #d01c28;
+}
+
+.nav-container {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.nav-container ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: var(--red);
+  padding: 0.5rem 1.15rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.15rem;
+}
+
+.product-container {
+  max-width: 1125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+.product-text h1 {
+  font-size: 85px;
+  font-weight: 900;
+  color: #222;
+  max-width: 595px;
+}
+
+.product-text img {
+  max-width: 32px;
+  margin: 1rem 0.5rem;
+}
+
+.product-text p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #777;
+  max-width: 400px;
+  margin: 1.5rem 0;
+}
+
+.shop-btn {
+  background-color: var(--red);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 1rem;
+  border-radius: 0.15rem;
+}
+
+.category-btn {
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #333;
+  border-radius: 0.15rem;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 1rem;
+}
+
+.product-img img {
+  max-width: 530px;
+}
